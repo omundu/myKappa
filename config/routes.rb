@@ -1,4 +1,28 @@
 KDR::Application.routes.draw do
+  
+  get "pages/home"
+  get "pages/parties"
+  get "pages/rush"
+  get "pages/brothers"
+  get "pages/history"
+  get "pages/composites"
+  get "pages/officers"
+  get "pages/links"
+  get "pages/contact"
+  get "pages/community"
+
+  match '/parties',    :to =>  'pages#parties'
+  match '/rush',       :to =>  'pages#rush'
+  match '/brothers',   :to =>  'pages#brothers'
+  match '/history',    :to =>  'pages#history'
+  match '/composites', :to =>  'pages#composites'
+  match '/officers',   :to =>  'pages#officers'
+  match '/links',      :to =>  'pages#links'
+  match '/contact',    :to =>  'pages#contact'
+  match '/community',  :to =>  'pages#community'
+
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -48,7 +72,7 @@ KDR::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => "welcome#index"
+  root :to => "pages#home"
 
   # See how all your routes lay out with "rake routes"
 
