@@ -11,8 +11,8 @@ describe "LayoutLinks" do
   
   @pages.each do |title|            
     it "should have a #{title.capitalize} page at '/#{title}'" do
-      get '/#{title}'
-      response.should have_selector("title", :content => "#{title.capitalize}")
+      get title
+      response.should have_selector("title", :content => title.capitalize)
     end
   end
   
