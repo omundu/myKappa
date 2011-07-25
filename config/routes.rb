@@ -1,4 +1,5 @@
 KDR::Application.routes.draw do
+<<<<<<< HEAD
   
   get "pages/home"
   get "pages/parties"
@@ -23,6 +24,8 @@ KDR::Application.routes.draw do
 
 
 
+=======
+>>>>>>> b1b9c465f8afe48db85ac097f59272e028be6d4b
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -72,7 +75,11 @@ KDR::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
+<<<<<<< HEAD
   root :to => 'pages#home'
+=======
+  # root :to => "welcome#index"
+>>>>>>> b1b9c465f8afe48db85ac097f59272e028be6d4b
 
   # See how all your routes lay out with "rake routes"
 

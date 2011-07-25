@@ -15,4 +15,9 @@ more relevant and up to date information.
 At the very least, I expect this to be a fun learning experience that I can use
 to create even more complex problems.
 
+<<<<<<< HEAD
 --Bacon
+=======
+==≈
+*Bacon*
+>>>>>>> b1b9c465f8afe48db85ac097f59272e028be6d4b
