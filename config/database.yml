@@ -20,7 +20,3 @@ production:
   database: db/production.sqlite3
   pool: 5
   timeout: 5000
-<<<<<<< HEAD
-
-=======
->>>>>>> b1b9c465f8afe48db85ac097f59272e028be6d4b

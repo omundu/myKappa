@@ -1,19 +1,15 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.7'
-<<<<<<< HEAD
 gem 'sqlite3-ruby', :require => 'sqlite3'
-=======
->>>>>>> b1b9c465f8afe48db85ac097f59272e028be6d4b
+
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-<<<<<<< HEAD
 #gem 'sql3'
-=======
+
 gem 'sqlite3'
->>>>>>> b1b9c465f8afe48db85ac097f59272e028be6d4b
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -28,7 +24,6 @@ gem 'sqlite3'
 # Bundle the extra gems:
 # gem 'bj'
 # gem 'nokogiri'
-<<<<<<< HEAD
 
 # gem 'aws-s3', :require => 'aws/s3'
 # Bundle gems for the local environment. Make sure to
@@ -40,7 +35,7 @@ group :development, :test do
 	gem 'ZenTest'
 	gem 'webrat', '0.7.1'
 end
-=======
+
 # gem 'sqlite3-ruby', :require => 'sqlite3'
 # gem 'aws-s3', :require => 'aws/s3'
 
@@ -50,4 +45,3 @@ end
 # group :development, :test do
 #   gem 'webrat'
 # end
->>>>>>> b1b9c465f8afe48db85ac097f59272e028be6d4b
